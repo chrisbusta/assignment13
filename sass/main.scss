@@ -1,10 +1,10 @@
 
 
-body {
+ body {
   font-family: "oswald", sans-serif;
   }
 
-.container {
+ .container {
   padding-top: 43px;
   min-width: 270px;
   max-width: 560px;
@@ -13,7 +13,7 @@ body {
 
 
 
-.body {
+ .body {
   background-color: $malibu;
   color: white;
   padding: 5px 15px 15px 15px;
@@ -61,9 +61,7 @@ body {
     text-align: center;
         }
 
-  // .top {
-  //   overflow: hidden;
-  //   margin-bottom: 7px;
+
 
   .dateTime {
     display: inline-block;

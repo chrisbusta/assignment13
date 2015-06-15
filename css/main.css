@@ -5,10 +5,10 @@ body {
   padding-top: 43px;
   min-width: 270px;
   max-width: 634px;
-  margin: auto; }
+  margin: auto;
+}
 
-.box {
-            }
+
 
 .body {
   background-color: #72C1EA;
@@ -65,7 +65,8 @@ body {
    .margin .dateTime .num1 {
       color: #AAC0CE;
       margin-bottom: 0;
-      font-size: 16px; }
+      font-size: 16px;
+    }
    .margin .image {
     display: inline-block;
       margin-top: 27px;
@@ -77,7 +78,8 @@ body {
       background-color: #B1DBF5;
       border-radius: 50%;
       position: relative;
-      text-align: center; }
+      text-align: center;
+    }
     .margin .image .bordercircle {
       height: 40px;
       width: 40px;
@@ -86,12 +88,14 @@ body {
       position: absolute;
       top: 7px;
       left: 7px;
-      text-align: center; }
+      text-align: center;
+    }
     .margin .image i {
       position: relative;
       font-size: 23px;
       text-align: center;
       color: white;
       top: 18%;
-      text-align: center; }
+      text-align: center;
+    }
 
