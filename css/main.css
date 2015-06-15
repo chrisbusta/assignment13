@@ -1,0 +1,97 @@
+body {
+  font-family: "oswald", sans-serif; }
+
+.container {
+  padding-top: 43px;
+  min-width: 270px;
+  max-width: 634px;
+  margin: auto; }
+
+.box {
+            }
+
+.body {
+  background-color: #72C1EA;
+  color: white;
+  padding: 5px 15px 15px 15px;
+  border-radius: 5px;
+  clear: both;
+  position: relative;
+  margin-left: 193px;
+  width: 500px;
+
+   }
+  .body .pyramid {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    border-color: transparent #71C0E9 transparent transparent;
+    top: -10px;
+    left: 19px;
+    margin-left: -36px;
+    margin-top: 18px;
+    width: 0;
+    height: 0;
+    border-width: 10px 17px 10px 0;
+
+     }
+    .body .headline {
+    border-bottom: 2px solid #9FD4F0;
+    margin-bottom: 4px;
+    font-size: 22px;
+  }
+    .body.headline h4 {
+      margin-bottom: 10px;
+    }
+    .body .content {
+    padding-top: 10px; }
+    .body .content p {
+      font-size: 17px;
+       }
+
+   .margin {
+   overflow: hidden;
+   margin-bottom: -47px;
+   }
+   .margin .dateTime {
+    display: inline-block;
+    float: left;
+    }
+   .margin .dateTime .num2 {
+      margin: 0px;
+      font-size: 38px;
+      color: #71C0E9;
+    }
+   .margin .dateTime .num1 {
+      color: #AAC0CE;
+      margin-bottom: 0;
+      font-size: 16px; }
+   .margin .image {
+    display: inline-block;
+      margin-top: 27px;
+      margin-left: 5px;
+     }
+    .margin .image .outercircle {
+      height: 55px;
+      width: 55px;
+      background-color: #B1DBF5;
+      border-radius: 50%;
+      position: relative;
+      text-align: center; }
+    .margin .image .bordercircle {
+      height: 40px;
+      width: 40px;
+      background-color: #4EA5D5;
+      border-radius: 50%;
+      position: absolute;
+      top: 7px;
+      left: 7px;
+      text-align: center; }
+    .margin .image i {
+      position: relative;
+      font-size: 23px;
+      text-align: center;
+      color: white;
+      top: 18%;
+      text-align: center; }
+

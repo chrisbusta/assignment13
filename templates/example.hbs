@@ -1,0 +1,66 @@
+{{!-- <h1>
+  {{value}}
+</h1>
+
+
+{{#each timelines}}
+<section>
+  <aside>
+
+
+    <span class="fa-stack fa-lg timeIcon">
+      <i class="fa fa-circle fa-stack-2x outer-ring"></i>
+      <i class="fa fa-circle fa-stack-2x inner-ring"></i>
+      <i class="fa {{icon}} fa-stack-1x fa-inverse"></i>
+    </span>
+
+    <div class="stamp">
+      <p class="date">{{timerDate}}</p>
+      <h4 class="hour">{{timerHour}}</h4>
+    </div>
+
+  </aside>
+  <article>
+    <figure>
+      <h3>{{title}}</h3>
+      <p>{{content}}</p>
+    </figure>
+  </article>
+</section>
+{{/each}} --}}
+
+
+
+
+
+
+<div class="box">
+ {{#each timelines}}
+  <div class="central">
+    <div class="margin">
+
+    <div class="dateTime">
+      <p class="num1">{{date}}</p>
+      <p class="num2">{{times}}</p>
+    </div>
+    <div class="image">
+      <div class="outercircle">
+        <div class="bordercircle">
+          <i class="fa {{icon}}"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="body">
+     <div class="headline">
+      <div class="pyramid"></div>
+       <h4>{{headline}}</h4>
+    </div>
+    <div class="content">
+       <p>{{content}}</p>
+    </div>
+  </div>
+</div>
+  {{/each}}
+</div>
