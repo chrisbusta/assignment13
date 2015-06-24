@@ -19,6 +19,7 @@ body {
   position: relative;
   margin-left: 193px;
   width: 500px;
+  margin-top: 30px;
 
    }
   .body .pyramid {
@@ -28,11 +29,12 @@ body {
     border-color: transparent #71C0E9 transparent transparent;
     top: -10px;
     left: 19px;
-    margin-left: -36px;
+    margin-left: -29px;
     margin-top: 18px;
     width: 0;
     height: 0;
-    border-width: 10px 17px 10px 0;
+
+      border-width: 10px 10px 10px 0px;
 
      }
     .body .headline {
@@ -69,8 +71,9 @@ body {
     }
    .margin .image {
     display: inline-block;
-      margin-top: 27px;
-      margin-left: 5px;
+      margin-top: 5px;
+      margin-bottom: 25px;
+      /*margin-left: 575px;*/
      }
     .margin .image .outercircle {
       height: 55px;
@@ -98,4 +101,6 @@ body {
       top: 18%;
       text-align: center;
     }
+
+
 
