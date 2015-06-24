@@ -26,15 +26,14 @@ body {
     content: " ";
     position: absolute;
     border-style: solid;
-    border-color: transparent #71C0E9 transparent transparent;
+    border-color: transparent transparent #71C0E9 transparent;
     top: -10px;
     left: 19px;
-    margin-left: -29px;
-    margin-top: 18px;
+    margin-left: -10px;
+    margin-top: -1px;
     width: 0;
     height: 0;
-
-      border-width: 10px 10px 10px 0px;
+    border-width: 0 8.5px 12px 8.5px;
 
      }
     .body .headline {
@@ -56,8 +55,10 @@ body {
    margin-bottom: -47px;
    }
    .margin .dateTime {
-    display: inline-block;
-    float: left;
+      display: inline-block;
+  float: left;
+  margin-left: 170px;
+  margin-bottom: 24px;
     }
    .margin .dateTime .num2 {
       margin: 0px;
@@ -69,12 +70,7 @@ body {
       margin-bottom: 0;
       font-size: 16px;
     }
-   .margin .image {
-    display: inline-block;
-      margin-top: 5px;
-      margin-bottom: 25px;
-      /*margin-left: 575px;*/
-     }
+
     .margin .image .outercircle {
       height: 55px;
       width: 55px;
@@ -102,5 +98,17 @@ body {
       text-align: center;
     }
 
+   .picture .image {
+       display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  position: absolute;
+  margin-left: 386px;
+}
+{
 
+   }
+   .date .dateTime {
+
+   }
 

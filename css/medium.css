@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 /*body {
   min-width: 630px; }
 
@@ -11,13 +23,16 @@
   display: inline-block;
 
 }
+.outercircle {
 
+
+}
 .margin .image {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 575px;
-}*/
-/*.body .pyramid {
+  margin-left: 0px;
+}
+.body .pyramid {
   content: " ";
   position: absolute;
   border-style: solid;
@@ -29,4 +44,7 @@
   width: 0;
   height: 0;
   border-width: 0 11px 17px 11px;
-}*/
+}
+
+*/
+

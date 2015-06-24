@@ -13,20 +13,20 @@
 
 .margin .image {
   display: inline-block;
-  margin-top: -80px;
-  margin-left: 269px;
+  margin-top: 19px;
+  margin-left: 239px;
   margin-bottom: 0px;
 }
 .body .pyramid {
   content: " ";
   position: absolute;
   border-style: solid;
-  border-color: transparent #71C0E9 transparent transparent;
+  border-color: transparent transparent #71C0E9 transparent;
   top: -10px;
   left: 19px;
-  margin-left: -36px;
+  margin-left: 20px;
   margin-top: 0px;
   width: 0;
   height: 0;
-  border-width: 0 11px 17px 11px;
+  border-width: 0 8.5px 12px 8.5px;
 }

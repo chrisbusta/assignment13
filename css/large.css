@@ -20,14 +20,14 @@ body {
   background: #B1DBF5; }
 
 .body {
-  /*width: 910px;*/
-  /*overflow: hidden;*/
-  margin-top: 15px;
-  /*position: relative; */}
+
+  }
 
 .margin {
   display: inline-block;
-  float: left; }
+  float: left;
+  margin-left: -170px;
+  }
   .margin .dateTime {
     margin-right: 10px; }
     .margin .dateTime .num2 {
@@ -37,13 +37,13 @@ body {
     .margin .dateTime .num1 {
       text-align: right;
       margin-top: 5px; }
-  .margin .image {
+  .margin  .picture .image {
     margin-top: 0;
     margin-left: 0px; }
 
 .body {
   display: inline-block;
-  /*float: right;*/
+
   width: 565px;
   padding-right: 0px;
   clear: none;
@@ -53,14 +53,13 @@ body {
   .body .pyramid {
     content: " ";
     position: absolute;
-    /*left: 47px;
-    top: 97px;*/
+    margin-left: -29px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 10px 10px 10px 0px;
-/*    border-color: transparent #3F96C7 transparent transparent;
-*/    border-color: transparent #71C0E9 transparent transparent;
+    margin-top: 30px;
+    border-color: transparent #71C0E9 transparent transparent;
     position: absolute;
     top: -10px;
     left: 19px; }
